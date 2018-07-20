@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Voici une page bidon</h1>
+    <button id="btnGet" onclick="btnOnClick()">Get photos</button>
+    <div id="divImages"></div>
+    
+    <script>
+        var URL = "http://localhost:61728/api/photo"
+        
+        function btnOnClick(){
+            alert("on vient de cliquer!");
+            $.get(URL, function(data){
+                console.log(data);
+                for(i = 0; i < data.length; i++){
+                    $("#divImages").html += "<img src=\"data:image/"+data[i].type+";base64,"+data[i].img+"\">"
+                }
+            });
+        }
+    </script>
+</body>
+</html>
