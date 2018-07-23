@@ -67,3 +67,6 @@ C:\Users\BOSSEE\source\repos\restApi\restApi\obj\Debug\restApi.csproj.CoreCompil
 C:\Users\BOSSEE\source\repos\restApi\restApi\obj\Debug\restApi.csproj.CopyComplete
 C:\Users\BOSSEE\source\repos\restApi\restApi\obj\Debug\restApi.dll
 C:\Users\BOSSEE\source\repos\restApi\restApi\obj\Debug\restApi.pdb
+C:\Users\BOSSEE\source\repos\restApi\restApi\bin\System.Web.Cors.dll
+C:\Users\BOSSEE\source\repos\restApi\restApi\bin\System.Web.Http.Cors.dll
+C:\Users\BOSSEE\source\repos\restApi\restApi\bin\System.Web.Http.Cors.xml

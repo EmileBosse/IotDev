@@ -15,7 +15,7 @@
             $.get(URL, function(data){
                 console.log(data);
                 for(i = 0; i < data.length; i++){
-                    $("#divImages").html += "<img src=\"data:image/"+data[i].type+";base64,"+data[i].img+"\">"
+                    $("#divImages").html($("#divImages").html()+"<img src=\"data:image/"+data[i].type+";base64,"+data[i].img+"\" height=\"100\" width=\"100\">");
                 }
             });
         }
