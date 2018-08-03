@@ -1,0 +1,14 @@
+C:\Users\BOSSEE\Desktop\IoT\SERVER\src\restApp\restApp\bin\Debug\restApp.exe.config
+C:\Users\BOSSEE\Desktop\IoT\SERVER\src\restApp\restApp\bin\Debug\restApp.exe
+C:\Users\BOSSEE\Desktop\IoT\SERVER\src\restApp\restApp\bin\Debug\restApp.pdb
+C:\Users\BOSSEE\Desktop\IoT\SERVER\src\restApp\restApp\obj\Debug\restApp.csprojAssemblyReference.cache
+C:\Users\BOSSEE\Desktop\IoT\SERVER\src\restApp\restApp\obj\Debug\restApp.csproj.CoreCompileInputs.cache
+C:\Users\BOSSEE\Desktop\IoT\SERVER\src\restApp\restApp\obj\Debug\restApp.exe
+C:\Users\BOSSEE\Desktop\IoT\SERVER\src\restApp\restApp\obj\Debug\restApp.pdb
+C:\Users\EmileBosse\Desktop\PersonalDev\SERVER\src\restApp\restApp\bin\Debug\restApp.exe.config
+C:\Users\EmileBosse\Desktop\PersonalDev\SERVER\src\restApp\restApp\bin\Debug\restApp.exe
+C:\Users\EmileBosse\Desktop\PersonalDev\SERVER\src\restApp\restApp\bin\Debug\restApp.pdb
+C:\Users\EmileBosse\Desktop\PersonalDev\SERVER\src\restApp\restApp\obj\Debug\restApp.csprojAssemblyReference.cache
+C:\Users\EmileBosse\Desktop\PersonalDev\SERVER\src\restApp\restApp\obj\Debug\restApp.csproj.CoreCompileInputs.cache
+C:\Users\EmileBosse\Desktop\PersonalDev\SERVER\src\restApp\restApp\obj\Debug\restApp.exe
+C:\Users\EmileBosse\Desktop\PersonalDev\SERVER\src\restApp\restApp\obj\Debug\restApp.pdb
