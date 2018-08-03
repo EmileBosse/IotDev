@@ -15,7 +15,7 @@ namespace restApi.Controllers
     public class MusiqueController : ApiController
     {
         //this path should be replace with the good one on my own server
-        private const string PATH = "C:\\Users\\BOSSEE\\Music";
+        private const string PATH = "C:\\Users\\EmileBosse\\Music";
 
         // GET: api/Musique
         public IEnumerable<string> Get()

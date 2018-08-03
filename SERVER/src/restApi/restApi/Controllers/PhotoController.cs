@@ -15,7 +15,7 @@ namespace restApi.Controllers
     public class PhotoController : ApiController
     {
         //this path should be replace with the good one on my own server
-        private const string PATH = "C:\\Users\\BOSSEE\\Pictures";
+        private const string PATH = "C:\\Users\\EmileBosse\\Pictures";
 
 
         // GET: api/Photo

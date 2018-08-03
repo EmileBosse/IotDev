@@ -15,7 +15,7 @@ namespace restApi.Controllers
     public class VideoController : ApiController
     {
         //this path should be replace with the good one on my own server
-        private const string PATH = "C:\\Users\\BOSSEE\\Videos";
+        private const string PATH = "C:\\Users\\EmileBosse\\Videos";
 
         // GET: api/Video
         public IEnumerable<string> Get()
