@@ -6,28 +6,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 <body>
-    <div id="zoneMenu">
-        <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">Home</a>
-          <a href="#multimedia">Multimedias</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-        <h2 class="title">Bossee Enterprise</h2>
+    <div id="main-container">
+        <div id="header"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
     </div>
-    
-    <div class="parallaxe" style="background-image: url('img/background/1.jpg')">
-        <p class="desc">Cette page est en continuel évolution. Il s'agit de la page principal pour accéder à tous mes projets en cours et futurs. </p>
-    </div>
-    
-    <div class="parallaxe" style="background-image: url('img/background/2.jpg')"></div>
-    
-    <div id="footer"></div>
 </body>
+    
+    <script>
+    document.onreadystatechange = function(){
+        if (document.readyState == 'complete') {
+            window.onhashchange=hash_change;
+            window.onload=hash_change;
+            if(window.location.hash==''){
+                //default hash
+                window.location.replace('#home');
+            }
+
+            //load the header
+            $("#header").load("fragments/navigationbar.html");
+            //load the footer
+            $("#footer").load("fragments/footer.html");
+        }
+    }
+    
+    function hash_change()
+    {
+        //get the new hash
+       var newHashCode =  window.location.hash.substring(1);
+
+        if (newHashCode === "home"){
+            $("#content").load("src/home.html");
+
+        } else if (newHashCode === "products"){
+            $("#content").load("src/products.html");
+
+        } else if (newHashCode === "multimedia"){
+            $("#content").load("src/multimedia.html");
+
+        } else if (newHashCode === "projects"){
+            $("#content").load("src/projects.html");
+
+        } else if (newHashCode === "about") {
+            $("#content").load("src/about.html");
+
+        }
+    }
+    </script>
 </html>
